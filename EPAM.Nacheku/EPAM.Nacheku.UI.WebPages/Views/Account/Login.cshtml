@@ -1,0 +1,73 @@
+﻿@using EPAM.Nacheku.UI.WebPages.App_Code.Security
+@{
+    Layout = null;
+
+    var login = Request.Form["login"];
+    var password = Request.Form["password"];
+    var toremember = !ReferenceEquals(Request.Form["toremember"], null);
+    var alert = "Добро пожаловать!<br/>Будь начеку!";
+
+    if (IsPost)
+    {
+        AntiForgery.Validate();
+        if (login == null || password == null)
+        {
+            Response.Redirect("~/Views/Account/Login.cshtml", true);
+        }
+        else
+        {
+            if (LogicSecurity.Login(login, password, toremember))
+            {
+                if (Request.Params["returnUrl"] != null)
+                {
+                    Response.Redirect(Request.Params["returnUrl"], false);
+                }
+                else
+                {
+                    Response.Redirect("~/Views/Primary.cshtml", true);//Server.TransferRequest("~/Views/Primary.cshtml", true);
+                }
+            }
+            else
+            {
+                alert = "Не верный логин или пароль <br/> (что именно не уточняется <br/>for the sake of security )";
+                //Response.Redirect("~/Views/Account/Login.cshtml", false);
+            }
+        }
+
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="Social network service with an emphasis on search, user interface, and reliability">
+    <meta name="keywords" content="overhear, bug, eavesdrop, pry, peep, friends, team chat,group chat,chat for developers,chat with search, mike zakharov">
+    <title>Добро пожаловать!</title>
+    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="~/favicon.ico">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="~/Content/CSS/login.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="col-xs-12">
+            <form class="login" method="post" action="">
+                @AntiForgery.GetHtml()
+                <p>@Html.Raw(alert)</p>
+                <label for="login">Логин   <span class ="registration-link">(<a href="@Href("~/Views/Account/Register.cshtml")">регистрация</a>)</span></label>
+                <input required email type="email" id="login" name="login" placeholder="my@mail.ru" />
+                <label for="password">Пароль</label>
+                <input required type="password" id="password" name="password" />
+                <input type="submit" value="Войти" />
+                <span><input type="checkbox" id="toremember" name="toremember" checked /> Запомнить</span>
+                @if (Request.UrlReferrer != null)
+                {
+                    <input type="hidden" name="returnUrl" value="@Request.UrlReferrer.AbsolutePath" />
+                }
+            </form>
+        </div>
+    </div>
+</body>
+</html>

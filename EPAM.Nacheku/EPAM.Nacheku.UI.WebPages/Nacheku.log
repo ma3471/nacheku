@@ -1,0 +1,875 @@
+2015-06-19 02:52:26,667 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 02:52:26,781 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:26,784 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 02:52:26,787 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 02:52:29,608 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(4): error CS1501: No overload for method 'RequireField' takes 0 arguments
+2015-06-19 02:52:29,610 ERROR 8 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 02:52:29,798 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:30,610 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:32,311 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:32,358 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:33,262 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:33,340 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:33,820 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:39,094 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:39,126 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:39,137 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:40,116 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:40,147 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:40,163 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:41,656 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:42,590 ERROR 14 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(4): error CS1501: No overload for method 'RequireField' takes 0 arguments
+2015-06-19 02:52:42,592 ERROR 14 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 02:52:42,605 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:42,627 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:42,874 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:42,915 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:43,505 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:43,568 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:43,583 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:47,567 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:48,381 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:48,413 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:52:48,444 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:24,683 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:25,588 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:25,637 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:25,653 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:26,223 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:27,138 ERROR 7 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(4): error CS1501: No overload for method 'RequireField' takes 0 arguments
+2015-06-19 02:53:27,140 ERROR 7 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 02:53:27,153 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:27,163 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:27,351 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:27,425 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:28,083 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:28,114 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:28,145 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:32,857 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:33,728 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:33,759 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:33,791 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:40,052 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 02:53:40,537 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:40,537 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 02:53:40,552 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:45,476 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:46,366 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:46,400 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 02:53:47,356 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:47,392 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:47,416 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:48,419 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:50,893 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(4): error CS1501: No overload for method 'RequireField' takes 0 arguments
+2015-06-19 02:53:50,895 ERROR 8 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 02:53:50,909 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:50,942 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:51,120 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:51,164 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:51,736 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:51,767 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:53:51,798 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:00,041 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 02:55:00,073 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:00,073 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 02:55:00,073 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:00,088 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:00,088 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 02:55:15,578 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:16,427 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:16,458 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:16,505 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:17,433 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:19,507 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:20,381 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:20,397 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:55:20,444 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:56:20,050 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 02:56:20,082 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:56:20,082 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 02:56:20,097 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:56:20,097 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:56:20,097 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 02:57:11,629 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:14,929 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:14,945 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:14,992 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:40,080 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 02:57:40,095 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:40,095 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 02:57:40,111 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:40,111 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:57:40,111 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 02:59:00,094 INFO 22 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 02:59:00,141 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:59:00,141 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 02:59:00,141 INFO 28 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:59:00,157 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 02:59:00,157 INFO 22 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 09:42:40,662 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 09:42:40,800 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:42:40,804 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 09:42:40,806 INFO 11 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 09:42:45,893 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:42:48,764 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:42:48,802 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:42:48,824 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:44:00,099 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 09:44:00,131 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:44:00,131 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 09:44:00,147 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:44:00,147 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:44:00,164 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 09:45:20,099 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 09:45:20,100 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:45:20,100 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 09:45:20,116 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:45:20,116 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:45:20,116 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 09:46:20,106 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 09:46:20,106 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:46:20,106 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 09:46:20,106 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:46:20,106 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 09:46:20,123 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:31:57,704 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 10:31:57,755 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:31:57,758 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 10:31:57,760 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 10:31:59,770 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:32:01,248 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:32:01,312 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:32:01,328 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:33:00,032 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:33:00,062 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:33:00,062 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:33:00,078 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:33:00,078 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:33:00,078 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:34:20,031 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:34:20,035 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:34:20,038 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:34:20,043 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:34:20,050 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:34:20,057 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:35:20,069 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:35:20,069 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:35:20,069 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:35:20,084 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:35:20,084 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:35:20,084 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:36:20,099 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:36:20,099 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:36:20,099 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:36:20,099 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:36:20,115 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:36:20,115 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:37:20,107 INFO 20 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:37:20,107 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:37:20,107 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:37:20,107 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:37:20,124 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:37:20,139 INFO 20 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:38:20,129 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:38:20,129 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:38:20,145 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:38:20,145 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:38:20,145 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:38:20,162 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:39:40,127 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:39:40,127 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:39:40,127 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:39:40,127 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:39:40,144 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:39:40,144 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:40:14,815 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:16,713 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:16,729 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:16,784 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:40,147 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:40:40,148 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:40,148 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:40:40,164 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:40,164 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:40:40,164 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:41:40,163 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:41:40,163 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:41:40,163 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:41:40,163 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:41:40,163 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:41:40,178 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:42:29,593 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:31,368 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:31,422 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:31,458 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:36,791 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:37,729 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:37,761 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:42:37,799 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:43:00,166 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:43:00,166 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:43:00,166 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:43:00,166 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:43:00,166 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:43:00,182 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:44:00,183 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:44:00,183 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:44:00,183 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:44:00,183 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:44:00,201 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:44:00,206 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:45:00,214 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:45:00,215 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:45:00,215 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:45:00,231 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:45:00,231 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:45:00,231 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:46:00,239 INFO 27 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:46:00,239 INFO 28 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:46:00,239 INFO 28 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:46:00,239 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:46:00,254 INFO 26 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:46:00,254 INFO 27 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:47:00,270 INFO 30 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:47:00,271 INFO 29 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:47:00,271 INFO 29 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:47:00,287 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:47:00,287 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:47:00,287 INFO 30 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:48:00,282 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:48:00,282 INFO 36 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:48:00,282 INFO 36 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:48:00,282 INFO 34 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:48:01,012 INFO 36 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:48:01,012 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:49:00,316 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:49:00,316 INFO 32 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:49:00,316 INFO 32 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:49:00,316 INFO 36 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:49:00,332 INFO 32 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:49:00,332 INFO 28 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:50:00,357 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:50:00,357 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:50:00,357 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:50:00,357 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:50:00,373 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:50:00,373 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:51:00,384 INFO 41 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:51:00,384 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:51:00,384 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:51:00,384 INFO 40 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:51:00,401 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:51:00,401 INFO 41 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:52:00,406 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:52:00,406 INFO 40 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:52:00,406 INFO 40 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:52:00,406 INFO 42 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:52:00,421 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:52:00,421 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:53:00,435 INFO 44 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:53:00,435 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:53:00,435 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:53:00,435 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:53:00,451 INFO 38 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:53:00,451 INFO 44 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:54:00,438 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-19 10:54:00,438 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:54:00,438 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-19 10:54:00,438 INFO 44 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:54:00,438 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:54:00,454 INFO 38 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-19 10:55:20,512 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 10:55:20,553 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:20,557 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 10:55:20,559 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 10:55:21,964 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:23,217 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:23,249 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:23,270 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:31,280 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:31,322 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:32,253 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:32,379 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 10:55:32,396 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:17,974 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:18,411 INFO 40 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:18,687 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:19,097 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:19,145 INFO 40 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:19,628 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:05:19,685 INFO 34 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:12:52,044 INFO 46 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:12:53,864 INFO 49 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:12:53,912 INFO 50 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:12:53,943 INFO 48 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:19:07,407 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:19:09,065 INFO 62 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:19:09,129 INFO 63 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:19:09,193 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:20:22,870 WARN 65 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 11:23:26,792 WARN 67 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 11:23:26,792 WARN 61 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 11:23:49,433 ERROR 61 EPAM.Nacheku.UI.WebPages.Global - —сылка на объект не указывает на экземпл€р объекта.
+2015-06-19 11:23:49,433 ERROR 65 EPAM.Nacheku.UI.WebPages.Global - —сылка на объект не указывает на экземпл€р объекта.
+2015-06-19 11:23:49,433 ERROR 67 EPAM.Nacheku.UI.WebPages.Global - —сылка на объект не указывает на экземпл€р объекта.
+2015-06-19 11:23:49,433 ERROR 61 EPAM.Nacheku.UI.WebPages.Global -    в EPAM.Nacheku.UI.WebPages.Global.Session_End(Object sender, EventArgs e) в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Global.asax.cs:строка 142
+2015-06-19 11:23:49,449 ERROR 65 EPAM.Nacheku.UI.WebPages.Global -    в EPAM.Nacheku.UI.WebPages.Global.Session_End(Object sender, EventArgs e) в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Global.asax.cs:строка 142
+2015-06-19 11:23:49,450 ERROR 67 EPAM.Nacheku.UI.WebPages.Global -    в EPAM.Nacheku.UI.WebPages.Global.Session_End(Object sender, EventArgs e) в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Global.asax.cs:строка 142
+2015-06-19 11:32:50,840 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 11:32:50,883 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:32:50,887 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 11:32:50,889 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 11:32:50,972 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:32:51,978 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:32:53,950 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:32:53,966 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:32:54,014 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:35:20,737 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:35:20,759 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:35:21,753 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:35:21,801 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:35:21,833 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:43:06,080 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:43:07,079 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:43:07,111 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 11:43:07,384 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:47:26,346 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 19:47:26,442 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:47:26,445 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 19:47:26,448 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 19:47:29,576 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:47:30,897 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:47:30,979 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:47:31,015 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:48:03,004 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:48:03,051 INFO 5 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 19:48:05,112 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:48:05,128 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:48:05,161 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:52:43,753 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:52:44,794 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:52:44,842 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:52:44,875 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:55:30,116 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:55:31,083 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:55:31,131 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 19:55:31,148 INFO 25 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:02:30,611 INFO 64 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:02:32,806 INFO 60 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:02:32,837 INFO 64 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:02:32,854 INFO 63 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:03:30,969 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:03:31,815 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:03:31,879 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:03:31,916 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:01,664 INFO 79 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:02,889 ERROR 79 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(109): error CS1002: ; expected
+2015-06-19 20:07:02,891 ERROR 79 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 20:07:02,955 INFO 76 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:05,012 INFO 79 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:05,087 INFO 78 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:05,791 INFO 69 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:05,839 INFO 79 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:07:06,540 INFO 76 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:52,265 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:53,151 ERROR 68 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(109): error CS1002: ; expected
+2015-06-19 20:09:53,154 ERROR 68 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 20:09:53,184 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:53,461 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:53,608 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:54,367 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:54,463 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:54,528 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:56,362 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:56,771 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:56,855 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:57,723 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:57,898 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:57,978 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:59,401 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:59,679 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:09:59,771 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:00,587 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:00,783 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:00,798 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:01,871 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:02,182 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:02,286 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:03,105 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:03,153 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:10:03,168 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:11,152 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:11,462 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:11,549 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:12,390 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:12,406 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:12,455 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:14,175 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:14,492 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:14,585 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:15,552 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:15,600 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:11:15,632 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:12:40,693 WARN 54 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:12:59,030 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:12:59,069 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:12:59,084 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:00,130 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:00,178 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:00,209 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:01,293 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:02,291 ERROR 65 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(109): error CS1002: ; expected
+2015-06-19 20:13:02,292 ERROR 65 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 20:13:02,333 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:02,346 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:02,652 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:02,735 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:03,474 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:03,521 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:03,569 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:20,599 WARN 66 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:13:21,635 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:21,644 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:21,662 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:23,001 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:23,034 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:23,082 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:27,699 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:28,574 ERROR 65 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(109): error CS1002: ; expected
+2015-06-19 20:13:28,576 ERROR 65 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 20:13:28,586 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:28,599 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:28,887 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:29,030 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:29,958 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:30,006 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:13:30,038 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:36,986 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 20:14:37,028 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:37,032 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 20:14:37,034 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 20:14:37,105 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:38,304 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:39,587 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:39,742 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:39,777 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:41,819 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:14:42,671 ERROR 11 EPAM.Nacheku.UI.WebPages.Global - f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(109): error CS1002: ; expected
+2015-06-19 20:14:42,673 ERROR 11 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 20:18:13,198 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:13,229 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:13,293 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:15,956 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:16,491 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:17,419 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:17,467 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:18:17,500 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:19:38,102 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:19:38,112 INFO 22 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:20:25,144 ERROR 22 EPAM.Nacheku.UI.WebPages.Global - ѕереполнение в результате выполнени€ арифметической операции.
+2015-06-19 20:20:25,146 ERROR 22 EPAM.Nacheku.UI.WebPages.Global -    в System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   в System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   в EPAM.Nacheku.Logic.SecurityHelper.ConstantLengthIntegerId.CreateRandomId() в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Logic\SecurityHelper\ConstantLengthIntegerId.cs:строка 22
+   в EPAM.Nacheku.Logic.LogicUserAccount.AddNewAccountAndProfile(String login, String password, String firstName, String middleName, String lastName, DateTime birthDay) в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Logic\LogicUserAccount.cs:строка 33
+   в ASP._Page_Views_Account_Register_cshtml.Execute() в f:\ћатериалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml:строка 57
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   в System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+2015-06-19 20:27:09,264 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 20:27:09,307 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:09,310 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 20:27:09,312 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 20:27:09,389 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:10,145 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:11,605 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:11,653 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:11,684 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:16,466 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:16,477 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:17,385 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:17,449 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:17,512 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:43,222 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:43,248 INFO 5 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:27:43,312 INFO 5 EPAM.Nacheku.Logic.LogicUserAccount - 666736839
+2015-06-19 20:27:43,440 INFO 5 EPAM.Nacheku.DAL.MSSQL.DataProfile - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:27:43,659 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:44,592 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:44,640 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:27:44,688 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:28:51,483 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:28:52,468 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:28:52,500 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:28:52,570 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:34:56,509 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:34:56,541 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:34:56,541 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:34:56,557 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:34:56,557 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:34:56,557 WARN 25 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-19 20:35:07,732 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 20:35:07,765 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:35:07,768 INFO 27 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 20:35:07,770 INFO 27 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 20:35:08,572 INFO 26 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:35:09,625 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:35:09,672 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:35:09,705 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:16,507 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 20:37:16,554 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:16,558 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 20:37:16,560 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 20:37:16,774 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:17,317 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:18,673 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:18,737 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:18,768 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:27,342 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:27,459 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:37:27,826 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:27,829 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:37:27,832 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataSecurity - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:37:28,957 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:28,959 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:37:29,965 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:37:29,965 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:38:05,757 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:38:05,776 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:38:05,806 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:38:05,806 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:38:06,829 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:38:06,829 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:25,820 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 20:46:25,875 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:25,877 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 20:46:25,879 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 20:46:25,935 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:25,990 INFO 8 EPAM.Nacheku.DAL.MSSQL.DataSecurity - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:46:27,525 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:27,530 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:27,533 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 20:46:27,536 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 20:46:27,616 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataUserState - UseCacheNotApplicationToKeepOnlineUsers = True
+2015-06-19 20:46:27,618 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataUserState - SlidingExpirationForOnlineUserCache = 1
+2015-06-19 20:46:28,791 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:28,791 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:37,048 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:37,051 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:37,136 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:37,139 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:39,291 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:39,291 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:46:59,257 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:46:59,257 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:47:00,123 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:47:00,125 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:47:08,278 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:47:08,278 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:47:08,301 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:47:08,304 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 20:47:08,307 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 20:47:09,271 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 20:47:09,271 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:09:56,367 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 23:09:56,435 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:09:56,438 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 23:09:56,440 INFO 10 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 23:09:56,669 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:09:57,568 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:09:59,409 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:09:59,440 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:09:59,472 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:10:12,819 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:10:12,838 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:10:13,814 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:10:13,846 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:10:13,910 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:13:22,671 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:13:22,687 INFO 16 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 23:13:23,754 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:13:23,819 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:13:23,850 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:14:56,521 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:14:56,563 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:14:57,529 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:14:57,577 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:14:57,609 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:09,303 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:09,378 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:09,886 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:10,837 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:10,866 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:11,637 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:11,701 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:11,722 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:17,530 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:17,567 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:17,578 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:18,448 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:18,591 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:19,065 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:33,409 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:33,432 ERROR 5 EPAM.Nacheku.UI.WebPages.Global - ¬ыдано исключение типа "System.Web.HttpException".
+2015-06-19 23:15:33,432 ERROR 5 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 23:15:33,432 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:33,680 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:33,732 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:34,415 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:34,461 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:34,494 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:42,232 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:42,250 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:42,259 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:43,176 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:43,208 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:15:43,256 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:11,664 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-19 23:45:11,707 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:11,709 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-19 23:45:11,711 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-19 23:45:11,789 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:12,578 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:13,989 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:14,037 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:14,084 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:15,575 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:15,615 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:16,588 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:16,627 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:45:16,649 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:46:08,727 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:46:08,746 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataUserAccount - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 23:46:09,658 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:46:09,706 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:46:09,754 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:46:59,581 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:00,543 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:00,608 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:00,646 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:03,914 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:03,937 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:04,029 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:15,177 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:16,057 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:16,104 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:16,153 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:39,115 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:39,178 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:39,181 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:47:39,184 INFO 12 EPAM.Nacheku.DAL.MSSQL.DataSecurity - Data Source=’ј—я-ѕ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-19 23:47:39,210 ERROR 12 EPAM.Nacheku.UI.WebPages.Global - ¬ыдано исключение типа "System.Web.HttpException".
+2015-06-19 23:47:39,216 ERROR 12 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 23:47:39,232 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:39,235 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:47:40,559 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:40,564 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:47:40,607 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:40,611 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:47:40,614 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 23:47:40,619 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataUserState - UseCacheNotApplicationToKeepOnlineUsers = True
+2015-06-19 23:47:40,621 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataUserState - SlidingExpirationForOnlineUserCache = 1
+2015-06-19 23:47:41,301 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:47:41,318 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:15,550 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:15,550 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:16,560 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:16,560 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:24,753 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:24,756 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:24,791 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:24,795 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:24,966 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:24,971 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:25,033 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:25,041 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:25,043 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 23:52:25,729 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:25,745 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:31,569 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:31,569 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:32,290 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:32,292 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:32,295 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 23:52:32,308 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:32,311 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:33,228 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:33,228 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,586 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:55,589 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,685 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:55,688 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,699 ERROR 19 EPAM.Nacheku.UI.WebPages.Global - ¬ыдано исключение типа "System.Web.HttpException".
+2015-06-19 23:52:55,701 ERROR 19 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-19 23:52:55,712 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:55,715 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,924 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:55,928 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,971 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:55,974 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-19 23:52:55,977 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-19 23:52:56,664 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-19 23:52:56,664 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru

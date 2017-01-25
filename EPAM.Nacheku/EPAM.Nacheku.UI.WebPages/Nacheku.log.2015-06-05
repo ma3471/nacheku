@@ -1,0 +1,28 @@
+2015-06-05 17:33:58,180 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 17:34:39,167 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 17:34:39,171 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DAL
+2015-06-05 17:39:27,313 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 17:40:10,859 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 17:40:10,865 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DAL
+2015-06-05 17:41:47,628 INFO 13 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DAL
+2015-06-05 17:45:02,003 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 17:45:04,898 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 17:50:53,793 INFO 26 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 17:50:53,799 INFO 26 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALEPAM.Nacheku.Entities.Message
+2015-06-05 17:53:05,089 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 17:53:16,347 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 17:53:16,354 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALjjjkkkk
+2015-06-05 18:32:24,000 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 18:32:42,244 INFO 10 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 18:32:42,247 INFO 10 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALlll
+2015-06-05 18:34:00,937 INFO 5 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALon
+2015-06-05 18:34:23,592 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DAL
+2015-06-05 18:35:05,629 INFO 5 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALon
+2015-06-05 18:36:46,385 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 18:36:56,362 INFO 7 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 18:36:56,364 INFO 7 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DAL
+2015-06-05 18:37:03,810 INFO 10 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALon
+2015-06-05 18:49:12,000 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-05 18:49:51,019 INFO 6 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-05 18:49:51,021 INFO 6 EPAM.Nacheku.DAL.MSSQL.DataMessage - I am in DALon
+2015-06-05 18:53:41,894 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.

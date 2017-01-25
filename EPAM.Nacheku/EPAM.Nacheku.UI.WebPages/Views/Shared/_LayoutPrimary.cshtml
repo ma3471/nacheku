@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Page.Title</title>
+    <meta charset="utf-8" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @RenderSection("stylesheets", required: false)
+    
+</head>
+<body>
+    <div>
+        @RenderBody()
+        Основная страница пользователя @HttpContext.Current.User.Identity.Name
+    </div>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

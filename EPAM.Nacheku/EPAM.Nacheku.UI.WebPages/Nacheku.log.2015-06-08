@@ -1,0 +1,207 @@
+2015-06-08 12:39:20,064 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 14:16:43,063 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 14:16:43,595 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 14:16:44,648 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 14:16:47,269 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 14:17:14,965 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 14:17:15,826 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 14:17:59,946 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 14:18:00,902 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 14:21:09,375 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 14:22:31,817 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 14:22:31,892 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 14:22:32,743 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 15:46:44,157 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 16:33:39,916 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 16:33:39,959 INFO 1 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Õàñÿ-ÏÊ
+2015-06-08 16:33:40,200 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 16:33:41,132 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 16:33:45,095 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 17:26:06,623 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 17:28:34,367 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 17:31:27,138 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 18:42:59,742 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 18:42:59,845 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 18:42:59,962 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:00,916 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:03,774 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:12,024 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:12,960 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:21,717 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:43:22,642 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 18:44:57,199 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 18:44:57,247 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 18:44:57,250 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 18:44:57,305 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 18:44:58,096 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 18:45:01,214 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 18:45:13,937 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 18:45:14,875 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:46:00,019 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:46:00,261 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 18:47:07,326 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:47:15,125 ERROR 10 EPAM.Nacheku.UI.WebPages.Global - The provided anti-forgery token was meant for user "1000133555@bnb", but the current user is "ma3471@mail.ru".
+2015-06-08 18:47:15,276 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:47:18,963 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:47:20,063 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:47:20,063 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 18:47:24,292 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:47:25,071 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 18:48:20,087 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:48:20,103 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 18:49:20,116 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:49:20,131 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 18:50:20,131 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:50:20,147 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 18:51:40,159 INFO 19 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 18:51:40,174 INFO 19 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:08:03,435 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:08:03,594 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:08:03,597 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - ~/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:08:03,599 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:08:03,697 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:08:06,163 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:08:10,426 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:09:20,055 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:09:20,102 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:10:16,643 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:10:16,732 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:10:16,735 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - ~/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:10:16,838 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:10:18,596 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:10:23,071 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:11:20,041 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:15:24,541 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:15:24,629 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:15:24,632 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:15:24,715 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:15:27,037 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:15:31,445 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:16:40,095 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:16:40,142 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:22:28,016 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:22:28,110 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:22:28,113 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:22:28,250 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:22:30,403 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:22:34,688 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:23:40,014 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:23:40,045 INFO 11 EPAM.Nacheku.UI.WebPages.Global - 127.0.0.1
+2015-06-08 19:23:40,061 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:24:40,059 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:24:40,075 INFO 15 EPAM.Nacheku.UI.WebPages.Global - 127.0.0.1
+2015-06-08 19:24:40,075 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:25:49,434 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:25:49,520 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:25:49,523 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:25:49,614 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:25:53,045 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:25:57,737 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:27:00,015 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:27:00,094 INFO 12 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:27:00,102 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:27:27,649 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:27:28,598 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 19:28:20,031 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:28:20,046 INFO 14 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:28:20,046 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:29:40,036 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:29:40,051 INFO 17 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:29:40,051 INFO 15 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:32:32,569 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:32:32,665 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:32:32,666 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:32:32,958 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 19:32:35,272 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 19:32:40,695 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 19:33:40,000 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:33:40,078 INFO 14 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:33:40,078 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:34:32,064 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 19:34:33,091 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:35:00,041 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:35:00,041 INFO 19 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:35:00,057 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:36:00,072 INFO 20 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:36:00,086 INFO 18 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:36:00,091 INFO 20 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:37:20,088 INFO 25 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:37:20,104 INFO 24 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:37:20,104 INFO 25 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:38:40,115 INFO 25 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:38:40,115 INFO 21 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:38:40,115 INFO 25 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:39:40,140 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:39:40,140 INFO 27 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:39:40,140 INFO 21 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:40:40,163 INFO 24 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:40:40,163 INFO 27 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:40:40,163 INFO 24 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:41:40,194 INFO 27 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:41:40,194 INFO 30 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:41:40,209 INFO 27 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:42:40,212 INFO 29 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:42:40,228 INFO 30 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:42:40,228 INFO 29 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:43:54,234 INFO 33 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:43:54,265 INFO 35 EPAM.Nacheku.UI.WebPages.Global - 
+2015-06-08 19:43:54,281 INFO 33 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:44:42,387 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:44:42,475 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:44:42,477 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:44:42,573 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:44:44,931 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:44:49,678 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:46:00,039 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:46:00,070 INFO 10 EPAM.Nacheku.UI.WebPages.Global - /WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:46:00,085 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 19:49:49,457 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 19:49:49,543 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:49:49,546 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-08 19:49:49,549 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 19:49:49,552 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 19:49:49,648 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:49:52,159 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:49:52,182 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:49:59,118 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:49:59,133 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:50:42,966 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:50:43,027 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:50:43,979 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:50:43,979 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 19:51:00,033 INFO 5 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 19:51:00,097 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 19:51:00,097 INFO 5 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 20:43:38,808 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 20:43:38,925 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:48:02,271 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-08 20:48:02,404 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:48:02,408 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-08 20:48:02,410 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-08 20:48:02,412 INFO 10 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-08 20:48:02,509 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 20:48:04,731 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:48:04,756 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 20:48:09,348 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:48:09,364 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 20:49:20,040 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 20:49:20,086 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:49:20,086 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-08 20:49:45,562 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:49:45,602 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-08 20:49:46,502 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:49:46,502 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:49:55,967 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:49:56,011 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:50:02,068 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - The provided anti-forgery token was meant for user "ma3471@mail.ru", but the current user is "1000133555@bnb".
+2015-06-08 20:50:02,128 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:50:02,131 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:50:05,660 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:50:05,675 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:50:08,058 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:50:08,062 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:50:08,932 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:50:08,932 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-08 20:50:22,066 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-08 20:50:22,066 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-08 20:50:22,066 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically

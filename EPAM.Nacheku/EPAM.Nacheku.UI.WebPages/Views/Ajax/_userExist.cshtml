@@ -1,0 +1,11 @@
+﻿@using EPAM.Nacheku.Logic
+@{
+    Layout = null;
+    if (IsAjax)
+    {
+        var login = Request.QueryString["login"];
+        Response.ContentType = "text/plain";
+        Response.Write(LogicUserAccount.UserExist(login).ToString()); ;
+    }
+}
+

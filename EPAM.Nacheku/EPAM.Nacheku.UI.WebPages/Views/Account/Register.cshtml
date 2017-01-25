@@ -1,0 +1,139 @@
+﻿@using System.Globalization
+@using System.Text
+@using System.Text.RegularExpressions
+@using EPAM.Nacheku.Logic
+
+@{  
+    Layout = null;
+    var alert = new StringBuilder();
+    
+    if (IsPost)
+    {
+        AntiForgery.Validate();
+        
+        //This server side check made to ensure valid client input in case javascript is disabled on the client's side
+        var isValidInput = true;
+
+        var firstName = Request.Form["first-name"] ?? string.Empty;
+        var middleName = Request.Form["middle-name"] ?? string.Empty;
+        var lastName = Request.Form["last-name"] ?? string.Empty;
+        var day = Request.Form["day"] ?? string.Empty;
+        var month = Request.Form["month"] ?? string.Empty;
+        var year = Request.Form["year"] ?? string.Empty;
+        var login = Request.Form["login"] ?? string.Empty;
+        var password = Request.Form["password"] ?? string.Empty;
+        var passwordConfirmation = Request.Form["password-confirmation"] ?? string.Empty;
+        var namePattern = new Regex(@"^[а-яА-Я]+$");
+        var surNamePattern = new Regex(@"^[а-яА-Я]+\-?[а-яА-Я]+$");
+        DateTime birthDay;
+        
+
+        if (!DateTime.TryParse(string.Format("{0} {1} {2}", year,  month, day), out birthDay))
+        {
+            alert.Append("Проверьте дату<br/>" + string.Format("{0} {1} {2}", year, month, day));
+            isValidInput = false;
+        }
+
+        if (LogicUserAccount.UserExist(login))
+        {
+            alert.Append("Похоже Вы просто пароль забыли<br/>Пользователь с таким логином уже зарегистрирован<br/>");
+            isValidInput = false;
+        }
+
+        if (password != passwordConfirmation)
+        {
+            alert.Append("Вы ввели два разных пароля<br/>");
+            isValidInput = false;
+        }
+
+        if (!namePattern.IsMatch(firstName.Trim())|| !namePattern.IsMatch(middleName.Trim()) || !surNamePattern.IsMatch(lastName.Trim()))
+        {
+            alert.Append("ФИО не корректно<br/>");
+            isValidInput = false;
+        }
+
+        if (isValidInput)
+        {
+            LogicUserAccount.AddNewAccountAndProfile(login, password, firstName.Trim(), middleName.Trim(), lastName.Trim(), birthDay); 
+            Response.Redirect("~/Views/Account/Login.cshtml");
+        }
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Social network service with an emphasis on search, user interface, and reliability">
+    <meta name="keywords" content="overhear, bug, eavesdrop, pry, peep, friends, team chat,group chat,chat for developers,chat with search, mike zakharov">
+    <title>Добро пожаловать!</title>
+    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="~/favicon.ico">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/CSS/login.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="col-xs-12">
+            <form class="registration" method="post" action="">
+                @AntiForgery.GetHtml()
+                <p>@Html.Raw(alert)</p>
+                <fieldset >
+                    <legend class ="registration-legend">Ваши персональные данные</legend>
+                    <label for="first-name">Имя</label>
+                    <input required type="text" id="first-name" name="first-name" placeholder="Еремей"/>
+                    <label for="middle-name">Отчество</label>
+                    <input type="text" id="middle-name" name="middle-name" placeholder="Леопольдович"/>
+                    <label for="last-name">Фамилия</label>
+                    <input required type="text" id="last-name" name="last-name" placeholder="Козлов-Сидорин"/>
+                    <div>
+                        <div class="birth-day">День рождения</div>
+                        <span >                           
+                            <select class="font-size-smaller" name="day" required>
+                                <option selected="selected" value="">День</option>
+                                    @for (int i = 1; i < 32; i++)
+                                    {
+                                        <option value="@i">@i</option>
+                                    }
+                                
+                            </select>
+                        </span>
+                        <span >
+                            <select class="font-size-smaller" name="month" required>
+                                <option selected="selected" value="">Месяц</option>
+                                @{
+                                    var months = new[] { "Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря" };
+                                    for (int i = 0; i < months.Length; i++)
+                                    {
+                                        <option value="@(i+1)">@months[i]</option>
+                                    }
+                                }
+                            </select>
+                        </span>
+                        <span >
+                            <select class="font-size-smaller" name="year" required>
+                                <option selected="selected" value="">Год</option>
+                                @for (int i = DateTime.Now.Year - 7; i > 1900; i--)
+                                {
+                                    <option value="@i">@i</option>
+                                }
+
+                            </select>
+
+                        </span>
+                    </div>
+                </fieldset>
+                <label for="login">Логин(Ваш e-mail)</label>
+                <input required email type="email" id="login" name="login" placeholder="my@mail.ru" />
+                <label for="password">Пароль</label>
+                <input required type="password" id="password" name="password"/>
+                <label for="password">Пароль(повторите)</label>
+                <input required type="password" id="password-confirmation" name="password-confirmation" />
+                <input type="submit" value="Зарегистрировать" />
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

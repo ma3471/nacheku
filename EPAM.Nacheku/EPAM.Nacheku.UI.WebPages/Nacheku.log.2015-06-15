@@ -1,0 +1,556 @@
+2015-06-15 01:00:59,453 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:00:59,533 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:00:59,537 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-15 01:00:59,541 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:00:59,546 INFO 10 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:01:07,697 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:01:12,885 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:01:42,500 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:01:43,389 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - f:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Register.cshtml(6): error CS0103: The name 'LogicMessage' does not exist in the current context
+2015-06-15 01:01:43,396 ERROR 8 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   в System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   в System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   в System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   в System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-15 01:01:43,740 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:01:44,338 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:01:45,153 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:02:00,204 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:02:00,242 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:02:00,652 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:02:00,657 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:03:20,201 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:03:20,204 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:03:20,209 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:03:20,213 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:03:40,534 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:03:41,494 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:04:20,210 INFO 5 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:04:20,213 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:04:20,217 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:04:20,222 INFO 5 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:05:40,203 INFO 19 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:05:40,206 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:05:40,210 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:05:40,215 INFO 19 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:06:35,833 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:06:37,892 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:06:40,165 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:06:41,093 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:00,375 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:07:00,428 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:00,431 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-15 01:07:00,434 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:07:00,436 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:07:01,271 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:02,647 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:25,099 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:25,140 INFO 10 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=ХАСЯ-ПК;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-15 01:07:46,040 ERROR 10 EPAM.Nacheku.UI.WebPages.Global - Не удается найти указанный файл
+2015-06-15 01:07:46,042 ERROR 10 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageHttpHandler.HandleError(Exception e)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContext context)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequest(HttpContext context)
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-15 01:07:46,089 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:07:46,943 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:08:08,371 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:08:09,416 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:08:20,114 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:08:20,147 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:08:20,169 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:08:20,174 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:09:40,111 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:09:40,114 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:09:40,120 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:09:40,124 INFO 13 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:11:00,108 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:11:00,112 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:11:00,121 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:11:00,125 INFO 16 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:12:52,908 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:12:52,958 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:12:52,961 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-15 01:12:52,964 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:12:52,967 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:12:54,925 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:12:56,355 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:13:59,996 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:14:00,032 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:14:00,051 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:14:00,057 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:15:01,565 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:15:01,609 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:15:01,612 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-15 01:15:01,615 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:15:01,617 INFO 10 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:15:02,339 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:15:02,546 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:15:04,643 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:15:23,256 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:21,948 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:16:21,964 ERROR 9 EPAM.Nacheku.UI.WebPages.Global - Ошибка при выполнении запроса дочернего элемента для /Views/Account/Login.cshtml.
+2015-06-15 01:16:21,967 ERROR 9 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageHttpHandler.HandleError(Exception e)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContext context)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequest(HttpContext context)
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-15 01:16:22,007 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:22,018 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:22,029 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:22,036 INFO 10 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:16:23,354 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:26,295 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:16:27,265 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:17:41,939 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:17:41,943 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:17:41,948 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:17:41,952 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:18:41,950 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-15 01:18:41,953 INFO 17 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:18:41,958 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:18:41,963 INFO 14 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-15 01:21:52,954 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:21:52,999 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:21:53,002 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:21:53,004 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:21:54,296 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:21:55,802 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:22:19,871 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:22:19,928 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:22:20,771 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:23:00,043 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:23:00,454 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:23:47,267 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:23:48,368 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:23:49,323 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:24:07,386 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:24:07,404 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:24:08,363 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:24:19,998 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:24:20,002 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:25:20,008 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:25:20,013 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:31:18,715 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:31:18,769 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:31:18,772 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:31:18,775 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:31:20,678 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:31:22,014 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:31:33,346 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:00,835 ERROR 10 EPAM.Nacheku.UI.WebPages.Global - Ошибка при выполнении запроса дочернего элемента для /Views/Account/Login.cshtml.
+2015-06-15 01:32:00,878 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:02,207 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:04,131 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:05,000 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:20,857 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:32:20,872 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:33:40,823 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:33:40,828 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:00,816 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:00,821 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:42,167 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:35:42,219 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:42,222 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:35:42,225 INFO 9 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:35:44,131 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:45,407 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,198 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,215 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,222 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,229 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,236 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,244 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,250 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,256 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,263 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,269 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:35:58,276 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:23,535 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 01:38:23,589 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:23,592 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 01:38:23,595 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 01:38:25,493 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:26,764 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:38,384 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:38,402 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:38:39,291 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:39:00,522 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:39:00,536 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:39:01,413 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:39:40,050 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 01:39:40,065 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:32:54,909 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 12:32:55,000 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:32:55,002 INFO 6 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 12:32:55,004 INFO 6 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 12:32:56,248 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:32:56,725 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:32:59,727 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:33:10,919 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:33:10,944 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:33:11,812 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:00,097 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:00,128 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:30,310 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 12:34:30,353 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:30,356 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 12:34:30,358 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 12:34:31,211 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:31,411 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:33,459 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:38,834 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:38,868 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:34:39,830 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:35:40,038 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:35:40,054 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:35:44,701 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:35:44,739 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:35:45,673 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:04,974 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:04,991 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:05,902 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:31,811 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 12:36:31,855 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:31,859 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 12:36:31,861 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 12:36:32,529 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:32,754 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:34,691 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:51,812 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:51,829 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:36:52,749 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:37:40,049 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:37:40,057 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:38:27,016 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 12:38:27,112 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:38:27,116 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 12:38:27,119 INFO 9 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 12:38:29,082 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:38:30,283 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:38:35,989 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 12:38:35,998 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=ХАСЯ-ПК;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-15 12:30:04,922 INFO 6 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:12:55,027 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 13:12:55,166 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:12:55,170 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 13:12:55,172 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 13:13:02,080 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:13:03,660 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:13:17,798 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:13:17,807 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=ХАСЯ-ПК;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-15 13:13:18,927 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:14:00,070 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:14:00,134 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:11,308 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:12,276 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:20,046 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:20,062 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:27,228 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:15:32,737 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:16:40,062 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:16:40,090 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:18:00,079 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:18:00,126 INFO 19 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:19:20,089 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:19:20,137 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:19:20,201 WARN 19 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:20:20,125 WARN 24 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:20:20,125 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:20:20,173 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:20:27,939 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:20:29,125 INFO 24 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:20:41,437 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:20:47,138 INFO 20 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:21:20,143 INFO 21 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:21:20,143 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:21:40,151 WARN 22 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:22:20,177 INFO 26 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:22:20,193 INFO 29 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:23:00,189 WARN 30 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:23:20,194 INFO 26 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:23:20,194 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:24:20,211 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:24:20,228 INFO 33 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:24:20,228 WARN 30 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:25:20,213 WARN 29 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:25:20,214 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:25:20,236 INFO 33 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:26:00,243 WARN 31 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:26:20,239 INFO 33 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:26:20,254 INFO 35 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:26:20,254 WARN 31 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:27:20,247 WARN 31 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 13:27:20,248 INFO 29 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 13:27:20,263 INFO 26 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:14,869 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 21:53:15,095 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:15,099 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 21:53:15,124 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 21:53:16,870 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:17,454 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:22,459 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:38,908 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:38,981 ERROR 11 EPAM.Nacheku.UI.WebPages.Global - Выдано исключение типа "System.Web.HttpException".
+2015-06-15 21:53:38,993 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:40,337 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:44,648 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:44,660 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:44,671 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:45,522 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:56,181 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:56,231 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:53:56,979 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:01,712 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:01,748 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:01,760 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:02,701 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:20,107 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:54:20,107 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:27,586 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 21:56:27,628 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:27,631 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 21:56:27,633 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 21:56:28,333 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:28,564 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:30,556 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:36,752 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:36,766 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - Выдано исключение типа "System.Web.HttpException".
+2015-06-15 21:56:36,790 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:37,284 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:56:38,154 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:11,230 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:11,240 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:11,253 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:12,284 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:40,066 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:57:40,066 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:58:40,098 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 21:58:40,114 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:10,761 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 22:00:10,806 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:10,809 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 22:00:10,811 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 22:00:11,493 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:11,698 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:13,593 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:21,118 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:00:21,131 ERROR 7 EPAM.Nacheku.UI.WebPages.Global - Выдано исключение типа "System.Web.HttpException".
+2015-06-15 22:01:18,947 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:01:18,972 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=ХАСЯ-ПК;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-15 22:01:20,054 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:01:20,063 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:01:20,666 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:01:55,323 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:02:07,727 ERROR 12 EPAM.Nacheku.UI.WebPages.Global - SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.
+Login failed for user 'Хася-ПК\Инет'.
+При выполнении текущей команды возникла серьезная ошибка.. При наличии результатов они должны быть аннулированы.
+2015-06-15 22:02:27,718 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:02:27,718 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:03:27,734 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:03:27,734 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:04:27,750 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:04:27,750 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:06:50,778 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 22:06:50,823 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:06:50,826 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 22:06:50,828 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 22:06:51,514 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:06:51,740 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:06:53,899 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:07:03,916 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:07:03,923 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=ХАСЯ-ПК;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-15 22:07:07,838 ERROR 11 EPAM.Nacheku.UI.WebPages.Global - SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.
+Login failed for user ''.
+2015-06-15 22:07:07,840 ERROR 11 EPAM.Nacheku.UI.WebPages.Global -    в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в EPAM.Nacheku.DAL.MSSQL.DataSecurity.GetUserAccount(String login) в f:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.DAL.MSSQL\DataSecurity.cs:строка 76
+   в EPAM.Nacheku.Logic.LogicSecurity.IsValidCredentials(String login, String password) в f:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Logic\LogicSecurity.cs:строка 82
+   в EPAM.Nacheku.Logic.LogicSecurity.Login(String login, String password, Boolean toRemember) в f:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Logic\LogicSecurity.cs:строка 53
+   в ASP._Page_Views_Account_Login_cshtml.Execute() в f:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Login.cshtml:строка 20
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   в System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   в System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+2015-06-15 22:08:00,068 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:08:00,100 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:09:20,064 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:09:20,064 INFO 15 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:10:39,250 INFO 42 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:10:39,282 INFO 43 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:11:57,953 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:11:58,017 ERROR 37 EPAM.Nacheku.UI.WebPages.Global - Выдано исключение типа "System.Web.HttpException".
+2015-06-15 22:11:58,019 ERROR 37 EPAM.Nacheku.UI.WebPages.Global -    в System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   в System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   в System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-15 22:11:59,268 INFO 38 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:11:59,270 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:12:19,318 WARN 44 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:12:59,276 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:12:59,276 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:17:56,931 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 22:17:57,041 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:17:57,045 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 22:17:57,047 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 22:18:05,599 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:18:06,807 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:19:00,060 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:19:00,140 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:20:37,989 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-15 22:20:38,086 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:20:38,090 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-15 22:20:38,092 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-15 22:20:46,677 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:20:47,858 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:21:39,986 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:21:40,134 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:21:43,656 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:21:44,607 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:23:00,119 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:23:00,150 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:24:20,140 INFO 18 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:24:20,188 INFO 16 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:25:40,168 INFO 22 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:25:40,216 INFO 23 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:27:00,173 WARN 24 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:27:00,173 WARN 28 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:27:00,174 INFO 27 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:27:00,208 INFO 28 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:28:00,174 WARN 33 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:28:20,170 INFO 35 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:28:20,187 INFO 34 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:29:20,181 INFO 30 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:29:20,197 INFO 36 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:29:40,172 WARN 29 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:30:40,178 INFO 38 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:30:40,198 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:31:00,182 WARN 40 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:31:40,199 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:31:40,214 INFO 46 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:32:00,210 WARN 41 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:32:40,231 INFO 43 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:32:40,248 INFO 45 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:33:20,251 WARN 47 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:33:40,246 INFO 51 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:33:40,261 INFO 49 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:34:20,271 WARN 49 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:34:40,291 INFO 48 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:34:40,307 INFO 51 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:35:40,296 WARN 50 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:36:00,307 INFO 53 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:36:00,329 INFO 55 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:36:40,296 WARN 54 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:37:20,330 INFO 56 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:37:20,345 INFO 57 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:37:40,333 WARN 57 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:38:40,336 WARN 56 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:38:40,336 INFO 57 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:38:40,369 INFO 56 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:38:52,645 INFO 58 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:38:56,998 INFO 57 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:38:57,998 INFO 54 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:39:40,337 WARN 56 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:40:00,340 INFO 58 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:40:00,357 INFO 60 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:41:00,386 WARN 58 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:41:00,386 INFO 61 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:41:00,402 INFO 63 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:42:00,415 INFO 64 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:42:00,431 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:42:20,425 WARN 65 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:43:00,436 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:43:00,456 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:43:40,451 WARN 67 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:44:00,458 WARN 67 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:44:00,458 INFO 69 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:44:00,505 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:45:00,452 WARN 67 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:45:20,458 INFO 69 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:45:20,473 INFO 70 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:46:00,474 WARN 69 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:46:20,488 INFO 71 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:46:20,501 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:47:00,489 WARN 69 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:47:40,502 INFO 74 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:47:40,502 INFO 69 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:48:00,514 WARN 73 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:48:40,526 INFO 74 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:48:40,542 INFO 69 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:49:00,548 WARN 75 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:49:40,543 INFO 76 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:49:49,187 INFO 75 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:50:20,549 WARN 76 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:51:00,570 INFO 72 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:51:00,570 INFO 79 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:51:20,576 WARN 79 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:52:00,606 INFO 81 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:52:00,875 INFO 80 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:52:40,632 WARN 80 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:53:20,637 INFO 77 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:53:20,652 INFO 74 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:53:40,644 WARN 75 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:54:20,674 INFO 75 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:54:20,690 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:55:00,689 WARN 72 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:55:40,688 INFO 77 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:55:40,704 INFO 73 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:56:00,694 WARN 77 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:57:00,721 INFO 68 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:57:00,740 INFO 66 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:57:20,720 WARN 66 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:58:20,714 WARN 69 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:58:20,714 INFO 67 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:58:20,747 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:59:20,722 WARN 66 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 22:59:40,732 INFO 65 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 22:59:40,732 INFO 63 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:00:40,758 WARN 66 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 23:00:40,758 INFO 63 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:00:40,791 INFO 60 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:01:56,945 INFO 41 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:01:56,966 INFO 43 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:02:16,936 WARN 44 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 23:03:16,929 INFO 38 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:03:16,932 INFO 37 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:03:36,932 WARN 39 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 23:04:16,935 INFO 39 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:04:16,935 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:04:56,956 WARN 31 EPAM.Nacheku.UI.WebPages.Global - User had not been not deleted from online users list!!!
+2015-06-15 23:05:16,970 INFO 31 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-15 23:05:16,970 INFO 35 EPAM.Nacheku.UI.WebPages.Global - Begin request

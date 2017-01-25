@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Social network service with an emphasis on search, user interface, and reliability">
+    <meta name="keywords" content="overhear, bug, eavesdrop, pry, peep, friends, team chat,group chat,chat for developers,chat with search, mike zakharov">
+    <title>@Page.title</title>
+    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="~/favicon.ico">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/CSS/error.css" />   
+</head>
+<body>
+    RenderPage("")
+<div>
+    <h1>@Page.userMessage</h1>
+    @if (User.IsInRole("Admin") || true)
+    {
+        <h2>@Request.QueryString["message"]</h2>
+
+    }
+
+    <p><a href="@Href("~/Default.cshtml")">На главную</a>
+    </p>
+
+    <p>
+        <a href="@Href(ReferenceEquals(Request.UrlReferrer, null) ? "~/Default.cshtml" : Request.UrlReferrer.AbsolutePath)">Вернуться обратно</a>
+    </p>
+    @RenderBody();
+</div>
+</body>
+</html>
+

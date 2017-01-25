@@ -1,0 +1,5 @@
+F:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Entities\bin\Debug\EPAM.Nacheku.Entities.dll
+F:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Entities\bin\Debug\EPAM.Nacheku.Entities.pdb
+F:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Entities\obj\Debug\EPAM.Nacheku.Entities.dll
+F:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Entities\obj\Debug\EPAM.Nacheku.Entities.pdb
+F:\Материалы\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.Entities\obj\Debug\EPAM.Nacheku.Entities.csprojResolveAssemblyReference.cache

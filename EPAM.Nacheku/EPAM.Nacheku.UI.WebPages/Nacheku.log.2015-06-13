@@ -1,0 +1,232 @@
+2015-06-13 22:57:22,490 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 22:57:22,606 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:57:22,610 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 22:57:22,613 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 22:57:22,625 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 22:57:24,201 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:57:24,459 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:58:44,997 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-13 22:59:57,978 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - f:\Ã‡ÚÂË‡Î˚\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Login.cshtml(18): error CS0117: 'EPAM.Nacheku.Logic.LogicSecurity' does not contain a definition for 'GetAllOnlineUsersStates'
+2015-06-13 23:00:33,329 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:00:33,394 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:57:05,992 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 22:57:06,089 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:57:06,092 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 22:57:06,094 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 22:57:06,096 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 22:57:06,714 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:57:06,792 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:58:36,534 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 22:58:36,619 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:58:36,623 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 22:58:36,625 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 22:58:36,626 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 22:58:39,625 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:58:39,743 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 22:58:43,304 ERROR 8 EPAM.Nacheku.UI.WebPages.Global - f:\Ã‡ÚÂË‡Î˚\C#\visual studio 2013 Projects\EPAM.Nacheku\EPAM.Nacheku.UI.WebPages\Views\Account\Login.cshtml(18): error CS0117: 'EPAM.Nacheku.Logic.LogicSecurity' does not contain a definition for 'GetAllOnlineUsersStates'
+2015-06-13 23:00:32,559 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:00:32,650 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:00:32,653 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:00:32,656 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:00:32,658 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:00:39,975 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:00:42,642 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:01:10,140 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:01:10,212 INFO 10 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:01:12,010 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:01:12,026 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:18:17,091 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:18:17,186 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:18:17,189 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:18:17,192 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:18:17,194 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:18:17,313 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:18:17,317 INFO 7 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:19:18,659 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:19:18,755 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:19:18,758 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:19:18,760 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:19:18,762 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:19:18,860 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:19:21,117 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:19:21,137 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:19:21,141 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:19:21,144 INFO 11 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:20:08,013 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:20:08,084 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:20:08,088 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:20:08,090 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:20:08,093 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:20:08,191 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:20:09,804 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:20:09,815 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:20:09,819 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:20:09,931 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:20:09,934 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:20:14,130 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:20:14,154 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:33,146 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:21:33,240 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:33,243 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:21:33,246 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:21:33,248 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:21:33,344 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:35,540 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:35,577 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:35,580 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:21:35,688 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:35,691 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:40,135 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:40,151 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:53,402 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:53,414 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:21:54,396 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:21:54,396 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:22:40,047 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-13 23:22:40,099 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:22:40,107 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:22:40,107 INFO 12 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-13 23:22:41,676 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:22:41,678 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:22:41,685 INFO 14 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:22:43,014 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:22:43,014 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:08,320 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:27:08,411 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:08,414 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:27:08,416 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:27:08,417 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:27:08,549 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:13,936 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:13,952 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:13,955 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:27:14,045 INFO 7 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:27:14,995 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:14,995 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:18,741 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:18,744 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:18,796 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:18,799 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:18,803 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:27:18,866 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:18,873 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:20,015 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:20,015 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:24,767 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:24,771 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:26,104 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:26,104 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:29,824 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:29,827 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:27:30,734 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:30,734 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:27:38,227 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:27:38,247 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:27:42,054 ERROR 10 EPAM.Nacheku.UI.WebPages.Global - The provided anti-forgery token was meant for user "ma3471@mail.ru", but the current user is "1000133555@bnb".
+2015-06-13 23:27:42,065 ERROR 10 EPAM.Nacheku.UI.WebPages.Global -    ‚ System.Web.WebPages.WebPageHttpHandler.HandleError(Exception e)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContext context)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequest(HttpContext context)
+   ‚ System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ‚ System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-13 23:32:45,876 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:32:46,009 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:46,012 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:32:46,014 INFO 7 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:32:46,017 INFO 7 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:32:46,139 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:50,134 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:50,154 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:50,158 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Session start for 1000133555@bnb
+2015-06-13 23:32:50,257 INFO 7 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:32:51,157 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:51,157 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:53,602 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:53,604 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:55,209 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:55,212 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:55,216 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Session start for 1000133555@bnb
+2015-06-13 23:32:55,312 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:55,315 INFO 7 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:32:58,861 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:32:58,861 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:33:10,283 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:33:10,307 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:33:11,375 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:33:11,378 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:33:15,679 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:33:15,682 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:33:18,992 ERROR 10 EPAM.Nacheku.UI.WebPages.Global - The provided anti-forgery token was meant for user "1000133555@bnb", but the current user is "ma3471@mail.ru".
+2015-06-13 23:33:19,005 ERROR 10 EPAM.Nacheku.UI.WebPages.Global -    ‚ System.Web.WebPages.WebPageHttpHandler.HandleError(Exception e)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContext context)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequest(HttpContext context)
+   ‚ System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ‚ System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-13 23:34:38,261 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:34:38,492 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:38,495 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:34:38,499 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:34:38,500 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:34:38,622 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:43,208 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:43,240 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:43,244 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:34:43,337 INFO 9 EPAM.Nacheku.DAL.MSSQL.DataMessage - Data Source=’¿—ﬂ-œ ;Initial Catalog=Nacheku;Integrated Security=True
+2015-06-13 23:34:44,264 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:44,264 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:49,396 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:49,399 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:51,083 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:51,085 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:51,088 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Session start for ma3471@mail.ru
+2015-06-13 23:34:51,182 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:51,186 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:34:55,245 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:34:55,260 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:35:03,183 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:03,204 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:35:04,247 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:04,247 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:35:11,035 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:11,054 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for ma3471@mail.ru
+2015-06-13 23:35:12,081 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:12,153 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:35:22,598 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:22,617 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:35:26,184 ERROR 5 EPAM.Nacheku.UI.WebPages.Global - The provided anti-forgery token was meant for user "ma3471@mail.ru", but the current user is "1000133555@bnb".
+2015-06-13 23:35:26,202 ERROR 5 EPAM.Nacheku.UI.WebPages.Global -    ‚ System.Web.WebPages.WebPageHttpHandler.HandleError(Exception e)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContextBase httpContext)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequestInternal(HttpContext context)
+   ‚ System.Web.WebPages.WebPageHttpHandler.ProcessRequest(HttpContext context)
+   ‚ System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   ‚ System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-06-13 23:35:26,227 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:26,231 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:35:27,073 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:27,081 INFO 5 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:35:40,014 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-13 23:35:40,054 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:40,062 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:40,070 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-13 23:35:59,226 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:35:59,253 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:36:00,235 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:36:00,235 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:37:00,034 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in windows Service simulator
+2015-06-13 23:37:00,073 INFO 14 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:37:00,073 INFO 13 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:37:00,081 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - Here I can do what I need periodically
+2015-06-13 23:46:11,118 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-13 23:46:11,303 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:46:11,306 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - I am in static constructor
+2015-06-13 23:46:11,308 INFO 8 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-13 23:46:11,310 INFO 8 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-13 23:46:11,410 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:46:13,874 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:46:13,889 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:46:13,893 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Session start for 1000133555@bnb
+2015-06-13 23:46:14,017 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:46:14,021 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb
+2015-06-13 23:46:20,407 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-13 23:46:20,422 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Authentication in progress for 1000133555@bnb

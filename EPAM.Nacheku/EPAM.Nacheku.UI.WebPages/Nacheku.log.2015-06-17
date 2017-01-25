@@ -1,0 +1,26 @@
+2015-06-17 00:57:36,791 INFO 1 EPAM.Nacheku.UI.WebPages.Global - Startup application.
+2015-06-17 00:57:36,894 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:57:36,898 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - http://localhost:54566/WindowsServiceSimulatorFakePage.cshtml
+2015-06-17 00:57:36,900 INFO 9 EPAM.Nacheku.UI.WebPages.Global - I am in First request
+2015-06-17 00:57:37,432 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:57:41,017 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:57:43,850 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:57:44,077 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:57:44,209 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:11,212 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:11,227 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:12,705 INFO 11 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:12,744 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:12,769 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:40,015 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-17 00:58:40,139 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:40,141 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-17 00:58:40,147 INFO 9 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:40,151 INFO 10 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 00:58:40,157 INFO 11 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
+2015-06-17 01:00:00,014 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - the request made by WSS
+2015-06-17 01:00:00,018 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 01:00:00,020 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Global app_beginRequest invoke WSS registerCacheEntry
+2015-06-17 01:00:00,025 INFO 8 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 01:00:00,031 INFO 12 EPAM.Nacheku.UI.WebPages.Global - Begin request
+2015-06-17 01:00:00,037 INFO 9 EPAM.Nacheku.UI.WebPages.WindowsServiceSimulator - just to check how webclient works
