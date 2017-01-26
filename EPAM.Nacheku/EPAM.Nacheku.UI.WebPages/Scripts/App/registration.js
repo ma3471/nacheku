@@ -7,3 +7,4 @@
         
     }
 });
+$(selector).append(content);
